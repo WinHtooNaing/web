@@ -1,0 +1,22 @@
+.pall{
+    font-size: 30px;
+    font-weight: 500;
+   
+    margin-top:20%;
+    text-align: center;
+}
+.aall{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 20px;
+}
+@media screen and (max-width:576px){
+    .pall{
+        
+       
+        margin-top:40%;
+        
+    }
+}

@@ -1,17 +1,97 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import * as React from "react";
+import { createRoot } from "react-dom/client";
+import {
+  createBrowserRouter,
+  RouterProvider,
+ 
+ 
+} from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Programming from "./programming/Programming";
+import App from "./App";
+import Begin from "./wherefile/Begin";
+import HTML from "./pages/HTML";
+import Css from "./pages/Css";
+import Javascript from "./pages/Javascript";
+import Reactjs from "./pages/Reactjs";
+import Nextjs from "./pages/Nextjs";
+import Nodejs from "./pages/Nodejs";
+import Expressjs from "./pages/Expressjs";
+import PostgreSQL from "./pages/PostgreSQL";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: (
+      <App/>
+    ),
+  },
+  {
+    path: "programming",
+    element: (
+      <div>
+          <Navbar/>
+          <Programming/>
+      </div>
+      
+    )
+  },
+  {
+    path : "begin",
+    element : (
+      <Begin/>
+    )
+  },
+  {
+    path : "html",
+    element : (
+      <HTML/>
+    )
+  },
+  {
+    path : "css",
+    element : (
+      <Css/>
+    )
+  },
+  {
+    path : "javascript",
+    element : (
+      <Javascript/>
+    )
+  },
+  {
+    path : "react",
+    element : (
+      <Reactjs/>
+    )
+  },
+  {
+    path : "nextjs",
+    element : (
+      <Nextjs/>
+    )
+  },
+  {
+    path : "nodejs",
+    element : (
+      <Nodejs/>
+    )
+  },
+  {
+    path : "expressjs",
+    element : (
+      <Expressjs/>
+    )
+  },
+  {
+    path : "postgresql",
+    element : (
+      <PostgreSQL/>
+    )
+  },
+]);
+
+createRoot(document.getElementById("root")).render(
+  <RouterProvider router={router} />
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

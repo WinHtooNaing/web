@@ -1,0 +1,198 @@
+.navcontainer {
+    width: 100%;
+    margin-top: 100px;
+    height: 30px !important;
+    border-bottom: none !important;
+    top: 0;
+    position: fixed;
+    left: 0;
+    z-index: 100;
+    background: #323946;
+}
+.navcontainer .ulcontainer {
+    display: flex;
+    flex-direction: row;
+}
+.navcontainer .ulcontainer li{
+    list-style: none;
+    margin-left: 5%;
+}
+.navcontainer .ulcontainer li a{
+    color: #fff;
+}
+.navcontainer .ulcontainer li a:hover {
+    border-bottom: 1px solid #fff;
+
+}
+.bodycontainer {
+    width: 100%;
+    margin-top: 250px;
+    margin-bottom: 170px;
+}
+.bodycontainer h1{
+    font-size: 70px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.bodycontainer p{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.bodycontainer a{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.bodycontainer a:hover {
+    color: grey;
+}
+.htmlcssdiv{
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.htmlcssdiv .htmldiv{
+    width: 40%;
+    height: 250px;
+    background: 	#FFC0CB;
+    border-radius: 10px;
+}
+.htmlcssdiv .htmldiv h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.htmlcssdiv .htmldiv p{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #222;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.htmlcssdiv .htmldiv div{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.htmlcssdiv .cssdiv div{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.htmlcssdiv .htmldiv a{
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    background: #323946;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.htmlcssdiv .cssdiv{
+    width: 40%;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 10%;
+    background: 	#FFA07A;
+}
+.htmlcssdiv .cssdiv h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.htmlcssdiv .cssdiv p{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #222;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.htmlcssdiv .cssdiv a{
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    background: #323946;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.follow {
+    width: 100%;
+    margin-top: 100px;
+}
+.follow p {
+    font-size: 25px;
+    text-align: center;
+}
+.follow .page{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.follow .page a {
+    color: #fff;
+    
+}
+.follow .page a i{
+    font-size: 40px;
+    
+}
+.follow .page a i:hover{
+    color: gray;
+}
+
+@media screen and (max-width:576px){
+    .navcontainer .ulcontainer li{
+       
+        margin-left: 3%;
+    }
+    .navcontainer .ulcontainer li a{
+        font-size: 12px;
+    }
+    .bodycontainer h1{
+        font-size: 50px;
+    }
+    .bodycontainer p{
+        font-size: 25px;
+       
+    }
+    .htmlcssdiv{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .htmlcssdiv .htmldiv{
+        width: 80%;
+        
+       
+    }
+    .htmlcssdiv .cssdiv{
+        width: 80%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .htmlcssdiv .htmldiv h1{
+        margin-top: 30px;
+    }
+    .htmlcssdiv .cssdiv h1{
+        margin-top: 30px;
+    }
+}

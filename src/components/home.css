@@ -1,0 +1,138 @@
+.home {
+    margin-top: 120px;
+    width: 70%;
+    margin-left: 15%;
+}
+.home h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-top: 200px;
+}
+.home p{
+    margin-top: 30px;
+    font-size: 1.2rem;
+    margin-left: 20px;
+
+}
+.home button{
+    width: 150px;
+    height: 60px;
+    background: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.home button a{
+    color: #222;
+}
+.home1 {
+    margin-top: 50px;
+    width: 60%;
+    margin-left: 20%;
+    background: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: inset 0 8px 60px #f1f1f1;
+    
+
+}
+.home1 .package {
+    font-size: 80px;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+.home1 h1 {
+    color: #222;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.home1 .p1 {
+    color: #222;
+    margin-left: 15px;
+}
+.home1 .div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.home1 .div .div1 .div3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+   
+    
+}
+.home1 .div .div1 .div3 p {
+    color: #222;
+    font-size: 18px;
+}
+.home1 .div .div2 .div3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+}
+.home1 .div .div2 .div3 p {
+    color: #222;
+    font-size: 18px;
+}
+.html i{
+    color: #E34C26;
+    font-size: 30px;
+}
+.css i{
+    color: #264de4;
+    font-size: 30px;
+}
+.javascript i{
+    color: #f0db4f;
+    font-size: 30px;
+}
+.react i{
+    color: #62DBFB;
+    font-size: 30px;
+}
+.NextJs img{
+    width: 30px;
+    height: 20px;
+    margin-top: 5px;
+}
+.node i{
+    color: #3c873a;
+    font-size: 30px;
+}
+.express img{
+   
+    width: 30px;
+    height: 30px;
+}
+.PostgreSQL i{
+    color: #0064a5;
+    font-size: 30px;
+}
+@media screen and (max-width:576px){
+    .home {
+        margin-left: 10%;
+    }
+    .home p{
+        margin-left: 30px;
+    }
+    .home1 {
+        
+        width: 80%;
+        margin-left: 10%;
+        
+        
+    
+    }
+}

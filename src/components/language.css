@@ -1,0 +1,75 @@
+.htmlcontainer {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.htmlcontainer .container1{
+    width: 30%;
+    padding-right: 20%;
+}
+.htmlcontainer .container1 h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+.htmlcontainer .container1 .html{
+    font-size: 100px;
+    color: #E34C26;
+}
+.htmlcontainer .container1 .css{
+    font-size: 100px;
+    color: #264de4;
+}
+.htmlcontainer .container1 .js{
+    font-size: 100px;
+    color: #f0db4f;
+}
+.htmlcontainer .container1 .react{
+    font-size: 100px;
+    color: #62DBFB;
+}
+.htmlcontainer .container1 .node{
+    font-size: 100px;
+    color: #3c873a;
+}
+.htmlcontainer .container1 .db{
+    font-size: 100px;
+    color: #0064a5;
+}
+img {
+    width: 100px;
+    height: 100px;
+
+}
+.express {
+    border-radius: 50%;
+}
+
+.footer {
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+@media screen and (max-width :576px) {
+    .htmlcontainer {
+        
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .htmlcontainer .container1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    img {
+        margin-left: 20px;
+        margin-top: 10px;
+    
+    }
+}
